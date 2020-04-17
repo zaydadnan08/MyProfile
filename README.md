@@ -2,5 +2,5 @@
 A android app created using the Firebase API by google to authenticate and store user information 
 in a real-time database, co-wrote by zaydadnan08 and FahadAdnan. Profiler is an app to display
 a simple profile to find others who share similar interests allowing the user to add other social media 
-platforms for messaging   (e.g Instagram, Facebook, LinkedIn)
+platforms for messaging. (e.g Instagram, Facebook, LinkedIn)
 "# MyProfile" 
