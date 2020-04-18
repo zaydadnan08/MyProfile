@@ -7,7 +7,6 @@ public class datainfo {
     private String coin, email, name, points;
 
     public datainfo() {
-
     }
 
     public String getEmail() {

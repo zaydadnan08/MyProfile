@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Trumpet.iml" filepath="$PROJECT_DIR$/Trumpet.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyProfile-master.iml" filepath="$PROJECT_DIR$/MyProfile-master.iml" group="MyProfile-master" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="MyProfile-master/app" />
     </modules>
   </component>
 </project>

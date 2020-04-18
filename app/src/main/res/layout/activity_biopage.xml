@@ -8,8 +8,6 @@
     android:background="@color/darkgrey"
     tools:context=".biopage">
 
-
-
     <RelativeLayout
         android:layout_weight="4"
         android:layout_width="match_parent"
@@ -19,9 +17,7 @@
             android:layout_width="fill_parent"
             android:layout_height="match_parent"
             android:scaleType="fitXY"
-            android:src="@drawable/zucc">
-
-        </ImageView>
+            android:src="@drawable/goose"></ImageView>
 
         <Button
             android:id="@+id/save"
@@ -38,11 +34,7 @@
             android:background="@color/white"
             />
 
-
     </RelativeLayout>
-
-
-
 
     <LinearLayout
         android:id="@+id/info"
@@ -51,7 +43,6 @@
         android:orientation="vertical"
         android:padding="5dp"
         android:layout_weight="3">
-
 
         <LinearLayout
             android:id="@+id/topbar"
@@ -87,7 +78,6 @@
                 android:hint="Age" />
         </LinearLayout>
 
-
         <TextView
             android:id="@+id/ProfileBio"
             android:layout_width="match_parent"
@@ -110,8 +100,15 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:padding="4dp" />
+                //app:srcCompat="@drawable/com_facebook_favicon_blue"
+
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
                 android:padding="4dp"
-                app:srcCompat="@drawable/com_facebook_favicon_blue"
                 />
 
             <ImageView
@@ -119,7 +116,6 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:padding="4dp"
-                app:srcCompat="@drawable/com_facebook_favicon_blue"
                 />
 
             <ImageView
@@ -127,7 +123,12 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:padding="4dp"
-                app:srcCompat="@drawable/com_facebook_favicon_blue"
+                />
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="4dp"
                 />
 
             <ImageView
@@ -135,24 +136,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:padding="4dp"
-                app:srcCompat="@drawable/com_facebook_favicon_blue"
                 />
-            <ImageView
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:padding="4dp"
-                app:srcCompat="@drawable/com_facebook_favicon_blue"
-                />
-
-            <ImageView
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:padding="4dp"
-                app:srcCompat="@drawable/com_facebook_favicon_blue"
-                />
-
 
         </LinearLayout>
 

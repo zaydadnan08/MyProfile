@@ -2,8 +2,8 @@ package com.example.admin.trumpet;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
-import android.support.annotation.NonNull;
-import android.support.v7.app.AppCompatActivity;
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
@@ -60,7 +60,7 @@ public class LoginActivity extends AppCompatActivity {
                         if (task.isSuccessful()){
                             Toast.makeText(LoginActivity.this, "Successful sign up", Toast.LENGTH_SHORT).show();
                             finish();
-                            startActivity(new Intent(getApplicationContext(), ProfileActivity.class));
+                            startActivity(new Intent(getApplicationContext(), biopage.class));
 
                         }else{
                             Toast.makeText(LoginActivity.this, "Failed to sign up", Toast.LENGTH_SHORT).show();

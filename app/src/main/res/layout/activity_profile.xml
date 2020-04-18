@@ -26,7 +26,8 @@
             android:layout_marginTop="20dp"
             android:padding="10dp"
             android:textSize="20sp"
-            android:backgroundTint="@color/colorAccent">
+            android:backgroundTint="@color/colorAccent"
+            android:gravity="center_horizontal">
         </TextView>
 
         <Button
@@ -34,12 +35,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Logout"
-            android:onClick="logout"
+            android:onClick="logoutclick"
             />
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
             android:orientation="horizontal">
@@ -70,15 +71,21 @@
 
 
             <Button
-                android:id="@+id/ddd"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:onClick="data"
-                android:text="data" />
-
+                android:layout_margin="10dp"
+                android:onClick="runpage"
+                android:text="profilepage" />
 
 
         </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/recyclerView"/>
+
+//note to past self --? changed ^^ height ot wrap_content
 
     </LinearLayout>
 

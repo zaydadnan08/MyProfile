@@ -2,17 +2,14 @@ package com.example.admin.trumpet;
 
 
 import android.content.Intent;
-import android.support.annotation.NonNull;
-import android.support.v7.app.AppCompatActivity;
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
-import android.widget.Button;
-import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import android.support.v4.view.GestureDetectorCompat;
+import androidx.core.view.GestureDetectorCompat;
 import android.view.GestureDetector;
 import android.view.MotionEvent;
 
@@ -37,7 +34,6 @@ public class biopage extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_biopage);
-
         gestureObject = new GestureDetectorCompat(this, new biopage.LearnGesture());
         nameStr = findViewById(R.id.ProfileName);
         ageVal = findViewById(R.id.ProfileAge);
@@ -67,11 +63,7 @@ public class biopage extends AppCompatActivity {
             }
         });
         //#endregion
-
-
     }
-
-
 
     //region swipe
     @Override
@@ -80,7 +72,7 @@ public class biopage extends AppCompatActivity {
         return super.onTouchEvent(event);
     }
 
-    class LearnGesture extends GestureDetector.SimpleOnGestureListener {
+   class LearnGesture extends GestureDetector.SimpleOnGestureListener {
 
         @Override
         public boolean onFling(MotionEvent event1, MotionEvent event2,
@@ -102,10 +94,8 @@ public class biopage extends AppCompatActivity {
     }
     //endregion
 
-
     public void edit (View view){
         Intent startloginpls = new Intent(this, editinfo.class);
         startActivity(startloginpls);
     }
-
 }
